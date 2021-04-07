@@ -1,0 +1,73 @@
+body {
+	background-image:url('https://cdn.hipwallpaper.com/i/60/22/LeAXGm.jpg');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+/* Top List */
+ul.up {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	color:rgb(38, 0, 255);
+	overflow:hidden;
+	transition-duration:0.4s;
+	position:sticky;
+}
+ul.up:hover {
+    color:rgb(255, 255, 255);
+} 
+li.up {
+	float:left;
+	font-family: monospace;
+}
+li a.up {
+	display:block;
+	color:rgb(255, 0, 0);
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	transition-duration: 0.4s;
+	background:none;
+	font-size: 20px;
+	position: relative;
+}
+li a.up:hover {
+    color:rgb(255, 255, 255);
+    background:rgb(25, 0, 255);
+	font-size: 25px;
+	padding:16px 20px;
+}
+li.dropdown {
+	display:inline-block;
+	position:relative;
+	color:rgb(255, 0, 0);
+	text-align:left;
+	top:14px;
+	padding:0;
+	text-decoration:none;
+	transition-duration: 0.4s;
+	background:none;
+	font-size: 20px;
+	position: relative;
+}
+.dropdown-content {
+	display:none;
+	position:fixed;
+	background-color:#F9F9F9;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding:10px 14px;
+	z-index:1;
+	overflow: auto;
+}
+.dropdown-content a {
+    padding:10px 12px;
+	text-align: center;
+	text-decoration:none;
+	display:block;
+}
+.dropdown:hover .dropdown-content {
+	display:block;
+
+}
